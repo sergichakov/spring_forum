@@ -9,8 +9,10 @@
         <module name="authorization-server (1)" />
         <module name="topic-web" />
         <module name="directory-web" />
+        <module name="authorization-server" />
         <module name="post-web" />
         <module name="resource-server_2" />
+        <module name="auth-gateway-server" />
         <module name="kafka-request-reply-util" />
         <module name="eureka-server" />
         <module name="auth-gateway-server (1)" />
@@ -24,15 +26,11 @@
           <entry name="/media/user/downloads1/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
           <entry name="/media/user/downloads1/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
+        <module name="topic-server" />
         <module name="directory-server" />
         <module name="post-server" />
-        <module name="topic-server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="auth-gateway-server" target="17" />
-      <module name="authorization-server" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
