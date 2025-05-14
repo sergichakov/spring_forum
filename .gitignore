@@ -8,6 +8,7 @@ kafka-request-reply-util/target
 eureka-server/target
 authorization-server/target
 auth-gateway-server/target
+resource-service/target
 *.idea/
 jwks
 jwks.1
@@ -27,3 +28,4 @@ generate.sh
 ./resource-service/src/main/java/com/example/resourceserver/resource/ResourceController.java_
 ./resource-server_old_not_working/src/main/java/com/example/resourceserver/config/ResourceServerConfig.java_
 ./resource-server_old_not_working/src/main/java/com/example/resourceserver/resource/ResourceController.java__
+
